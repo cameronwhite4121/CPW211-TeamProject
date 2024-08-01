@@ -6,5 +6,11 @@ namespace CPW211_TeamProject
         {
             InitializeComponent();
         }
+
+        private void btnAddCharacter_Click(object sender, EventArgs e)
+        {
+            AddCharacter newCharacterForm = new AddCharacter();
+            newCharacterForm.ShowDialog();
+        }
     }
 }
