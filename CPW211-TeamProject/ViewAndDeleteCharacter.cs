@@ -16,5 +16,16 @@ namespace CPW211_TeamProject
         {
             InitializeComponent();
         }
+
+        private void btnEditCharacter_Click(object sender, EventArgs e)
+        {
+            // Open add character form but change the labels
+            // to edit character to reduce redundant code
+        }
+
+        private void btnDeleteCharacter_Click(object sender, EventArgs e)
+        {
+            // Remove character at index something rather 
+        }
     }
 }

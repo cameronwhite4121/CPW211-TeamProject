@@ -28,32 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            btnEditCharacter = new Button();
+            btnDeleteCharacter = new Button();
+            lsbxCharacterList = new ListBox();
             SuspendLayout();
             // 
-            // label1
+            // btnEditCharacter
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(319, 182);
-            label1.Name = "label1";
-            label1.Size = new Size(89, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Well hello there";
+            btnEditCharacter.Location = new Point(339, 94);
+            btnEditCharacter.Name = "btnEditCharacter";
+            btnEditCharacter.Size = new Size(112, 38);
+            btnEditCharacter.TabIndex = 0;
+            btnEditCharacter.Text = "Edit Character";
+            btnEditCharacter.UseVisualStyleBackColor = true;
+            btnEditCharacter.Click += btnEditCharacter_Click;
+            // 
+            // btnDeleteCharacter
+            // 
+            btnDeleteCharacter.Location = new Point(339, 195);
+            btnDeleteCharacter.Name = "btnDeleteCharacter";
+            btnDeleteCharacter.Size = new Size(112, 38);
+            btnDeleteCharacter.TabIndex = 2;
+            btnDeleteCharacter.Text = "Delete Character";
+            btnDeleteCharacter.UseVisualStyleBackColor = true;
+            btnDeleteCharacter.Click += btnDeleteCharacter_Click;
+            // 
+            // lsbxCharacterList
+            // 
+            lsbxCharacterList.FormattingEnabled = true;
+            lsbxCharacterList.ItemHeight = 15;
+            lsbxCharacterList.Location = new Point(37, 30);
+            lsbxCharacterList.Name = "lsbxCharacterList";
+            lsbxCharacterList.Size = new Size(236, 274);
+            lsbxCharacterList.TabIndex = 3;
             // 
             // ViewAndDeleteCharacter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            BackColor = SystemColors.ButtonShadow;
+            ClientSize = new Size(500, 362);
+            Controls.Add(lsbxCharacterList);
+            Controls.Add(btnDeleteCharacter);
+            Controls.Add(btnEditCharacter);
             Name = "ViewAndDeleteCharacter";
             Text = "View/Delete Character";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Button btnEditCharacter;
+        private Button btnDeleteCharacter;
+        private ListBox lsbxCharacterList;
     }
 }
