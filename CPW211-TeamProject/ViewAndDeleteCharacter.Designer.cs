@@ -47,7 +47,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
             Name = "ViewAndDeleteCharacter";
-            Text = "ViewAndDeleteCharacter";
+            Text = "View/Delete Character";
             ResumeLayout(false);
             PerformLayout();
         }

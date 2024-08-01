@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            btnViewDeleteCharacter = new Button();
-            btnAddCharacter = new Button();
+            btnViewDeleteCharacterForm = new Button();
+            btnAddCharacterForm = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -57,35 +57,36 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
-            // btnViewDeleteCharacter
+            // btnViewDeleteCharacterForm
             // 
-            btnViewDeleteCharacter.Anchor = AnchorStyles.None;
-            btnViewDeleteCharacter.Location = new Point(304, 396);
-            btnViewDeleteCharacter.Name = "btnViewDeleteCharacter";
-            btnViewDeleteCharacter.Size = new Size(124, 43);
-            btnViewDeleteCharacter.TabIndex = 3;
-            btnViewDeleteCharacter.Text = "View/Delete Character";
-            btnViewDeleteCharacter.UseVisualStyleBackColor = true;
-            btnViewDeleteCharacter.Click += btnViewDeleteCharacter_Click;
+            btnViewDeleteCharacterForm.Anchor = AnchorStyles.None;
+            btnViewDeleteCharacterForm.Location = new Point(304, 396);
+            btnViewDeleteCharacterForm.Name = "btnViewDeleteCharacterForm";
+            btnViewDeleteCharacterForm.Size = new Size(124, 43);
+            btnViewDeleteCharacterForm.TabIndex = 3;
+            btnViewDeleteCharacterForm.Text = "View/Delete Character Form";
+            btnViewDeleteCharacterForm.UseVisualStyleBackColor = true;
+            btnViewDeleteCharacterForm.Click += btnViewDeleteCharacterForm_Click;
             // 
-            // btnAddCharacter
+            // btnAddCharacterForm
             // 
-            btnAddCharacter.Anchor = AnchorStyles.None;
-            btnAddCharacter.Location = new Point(76, 396);
-            btnAddCharacter.Name = "btnAddCharacter";
-            btnAddCharacter.Size = new Size(124, 43);
-            btnAddCharacter.TabIndex = 4;
-            btnAddCharacter.Text = "Add Character";
-            btnAddCharacter.UseVisualStyleBackColor = true;
-            btnAddCharacter.Click += btnAddCharacter_Click;
+            btnAddCharacterForm.Anchor = AnchorStyles.None;
+            btnAddCharacterForm.Location = new Point(76, 396);
+            btnAddCharacterForm.Name = "btnAddCharacterForm";
+            btnAddCharacterForm.Size = new Size(124, 43);
+            btnAddCharacterForm.TabIndex = 4;
+            btnAddCharacterForm.Text = "Add Character Form";
+            btnAddCharacterForm.UseVisualStyleBackColor = true;
+            btnAddCharacterForm.Click += btnAddCharacterForm_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonShadow;
             ClientSize = new Size(499, 497);
-            Controls.Add(btnAddCharacter);
-            Controls.Add(btnViewDeleteCharacter);
+            Controls.Add(btnAddCharacterForm);
+            Controls.Add(btnViewDeleteCharacterForm);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
             Name = "Form1";
@@ -99,7 +100,7 @@
 
         private Label label1;
         private PictureBox pictureBox1;
-        private Button btnViewDeleteCharacter;
-        private Button btnAddCharacter;
+        private Button btnViewDeleteCharacterForm;
+        private Button btnAddCharacterForm;
     }
 }

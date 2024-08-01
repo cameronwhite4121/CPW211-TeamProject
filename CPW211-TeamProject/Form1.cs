@@ -7,13 +7,13 @@ namespace CPW211_TeamProject
             InitializeComponent();
         }
 
-        private void btnAddCharacter_Click(object sender, EventArgs e)
+        private void btnAddCharacterForm_Click(object sender, EventArgs e)
         {
             AddCharacter newCharacterForm = new AddCharacter();
             newCharacterForm.ShowDialog();
         }
 
-        private void btnViewDeleteCharacter_Click(object sender, EventArgs e)
+        private void btnViewDeleteCharacterForm_Click(object sender, EventArgs e)
         {
             ViewAndDeleteCharacter newViewCharacterForm = new ViewAndDeleteCharacter();
             newViewCharacterForm.ShowDialog();
