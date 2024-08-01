@@ -12,5 +12,11 @@ namespace CPW211_TeamProject
             AddCharacter newCharacterForm = new AddCharacter();
             newCharacterForm.ShowDialog();
         }
+
+        private void btnViewDeleteCharacter_Click(object sender, EventArgs e)
+        {
+            ViewAndDeleteCharacter newViewCharacterForm = new ViewAndDeleteCharacter();
+            newViewCharacterForm.ShowDialog();
+        }
     }
 }

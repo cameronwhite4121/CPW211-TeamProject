@@ -66,6 +66,7 @@
             btnViewDeleteCharacter.TabIndex = 3;
             btnViewDeleteCharacter.Text = "View/Delete Character";
             btnViewDeleteCharacter.UseVisualStyleBackColor = true;
+            btnViewDeleteCharacter.Click += btnViewDeleteCharacter_Click;
             // 
             // btnAddCharacter
             // 
