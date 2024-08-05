@@ -1,6 +1,6 @@
 ﻿namespace CPW211_TeamProject
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             label1 = new Label();
             pictureBox1 = new PictureBox();
             btnViewDeleteCharacterForm = new Button();
@@ -79,7 +79,7 @@
             btnAddCharacterForm.UseVisualStyleBackColor = true;
             btnAddCharacterForm.Click += btnAddCharacterForm_Click;
             // 
-            // Form1
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -89,7 +89,7 @@
             Controls.Add(btnViewDeleteCharacterForm);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
-            Name = "Form1";
+            Name = "MainForm";
             Text = "Character Index";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
