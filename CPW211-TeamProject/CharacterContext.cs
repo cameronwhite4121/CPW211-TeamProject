@@ -16,8 +16,18 @@ namespace CPW211_TeamProject
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
+            // Database connection string
             options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=CharacterIndex;Trusted_Connection=True;");
         }
 
+        /// <summary>
+        /// adds character table to database
+        /// </summary>
+        public DbSet<character> character { get; set; }
+
+        /// <summary>
+        /// Adds weapon table to database
+        /// </summary>
+        public DbSet<weapon> weapon { get; set; }
     }
 }
