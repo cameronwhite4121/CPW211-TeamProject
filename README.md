@@ -1,4 +1,4 @@
-# CPW211-TeamProject
+# CPW211-CharacterIndexApp
 ## About Info
   The main use of the character index application is to store information        
   of different characters from the marvel/dc universes into a database. The   
