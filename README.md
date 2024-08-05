@@ -23,7 +23,9 @@
    character.  
 - As the name of the form suggests, here the user can also delete or update  
   any of the characters that are stored in the database.  
-  
+## Helpful Links
+Markdown Cheatsheet: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](url)  
+EF Core with Winform Guide: [https://learn.microsoft.com/en-us/ef/core/get-started/winforms](url)
 
 
 
