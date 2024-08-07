@@ -23,11 +23,11 @@ namespace CPW211_TeamProject
         /// <summary>
         /// adds character table to database
         /// </summary>
-        public DbSet<character> character { get; set; }
+        //public DbSet<character> character { get; set; }
 
         /// <summary>
         /// Adds weapon table to database
         /// </summary>
-        public DbSet<weapon> weapon { get; set; }
+       // public DbSet<weapon> weapon { get; set; }
     }
 }
