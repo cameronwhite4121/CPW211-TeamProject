@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CPW211_TeamProject.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,11 +24,6 @@ namespace CPW211_TeamProject
         /// <summary>
         /// adds character table to database
         /// </summary>
-        //public DbSet<character> character { get; set; }
-
-        /// <summary>
-        /// Adds weapon table to database
-        /// </summary>
-       // public DbSet<weapon> weapon { get; set; }
+        public DbSet<Character> Character { get; set; }
     }
 }

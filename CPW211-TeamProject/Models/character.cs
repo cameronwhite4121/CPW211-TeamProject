@@ -16,7 +16,7 @@ namespace CPW211_TeamProject.Models
         /// Character's ID as they are stored in the database. 
         /// </summary> 
         [Key] // Tell EF Core that this is the primary key 
-        private int _id;
+        public int _Id { get; set; }
 
         /// <summary> 
         /// Character's name. 
